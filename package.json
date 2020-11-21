@@ -1,0 +1,44 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-fs": "^1.0.0",
+    "blueimp-md5": "^2.12.0",
+    "co-mysql": "^1.0.0",
+    "cookie-parser": "^1.4.4",
+    "koa": "^2.8.1",
+    "koa-better-body": "^2.0.1",
+    "koa-ejs": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.12.3",
+    "koa-static": "^5.0.0",
+    "mysql": "^2.17.1",
+    "npm": "^6.11.3",
+    "svg-captcha": "^1.4.0"
+  },
+  "devDependencies": {
+    "await-fs": "^1.0.0",
+    "blueimp-md5": "^2.12.0",
+    "co-mysql": "^1.0.0",
+    "koa": "^2.8.1",
+    "koa-better-body": "^2.0.1",
+    "koa-body-parsers": "^3.1.0",
+    "koa-ejs": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.12.3",
+    "koa-static": "^5.0.0",
+    "mysql": "^2.17.1"
+  }
+}
